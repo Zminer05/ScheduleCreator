@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.TilePane?>
+<?import javafx.scene.text.TextFlow?>
+
+<GridPane gridLinesVisible="true" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1280.0" style="-fx-background-color: lightgrey;" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1">
+  <columnConstraints>
+      <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+    <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+      <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+      <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+      <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+      <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+      <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+    <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+  </columnConstraints>
+  <rowConstraints>
+    <RowConstraints prefHeight="20.0" valignment="CENTER" vgrow="SOMETIMES" />
+    <RowConstraints maxHeight="97.00000381469727" minHeight="10.0" prefHeight="75.66666793823242" vgrow="SOMETIMES" />
+      <RowConstraints maxHeight="171.33334350585938" minHeight="40.0" prefHeight="83.0" vgrow="SOMETIMES" />
+      <RowConstraints maxHeight="236.33334350585938" minHeight="40.0" prefHeight="90.0" vgrow="SOMETIMES" />
+      <RowConstraints maxHeight="217.33334350585938" minHeight="36.666656494140625" prefHeight="91.66668701171875" vgrow="SOMETIMES" />
+      <RowConstraints maxHeight="237.33334350585938" minHeight="40.0" prefHeight="88.0" vgrow="SOMETIMES" />
+      <RowConstraints maxHeight="252.33331298828125" minHeight="40.0" prefHeight="91.66665649414062" vgrow="SOMETIMES" />
+    <RowConstraints maxHeight="241.33331298828125" minHeight="40.0" prefHeight="89.6666259765625" vgrow="SOMETIMES" />
+      <RowConstraints maxHeight="263.66668701171875" minHeight="40.0" prefHeight="85.66668701171875" vgrow="SOMETIMES" />
+      <RowConstraints maxHeight="255.0" minHeight="40.0" prefHeight="80.33331298828125" vgrow="SOMETIMES" />
+  </rowConstraints>
+   <children>
+      <Label alignment="CENTER" prefHeight="17.0" prefWidth="88.0" text="Sunday" GridPane.columnIndex="1" />
+      <Label alignment="CENTER" prefHeight="17.0" prefWidth="85.0" text="Monday" GridPane.columnIndex="2" />
+      <Label alignment="CENTER" prefHeight="17.0" prefWidth="87.0" text="Tuesday" GridPane.columnIndex="3" />
+      <Label alignment="CENTER" prefHeight="17.0" prefWidth="87.0" text="Wednesday" GridPane.columnIndex="4" />
+      <Label alignment="CENTER" prefHeight="17.0" prefWidth="85.0" text="Thursday" GridPane.columnIndex="5" />
+      <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="17.0" prefWidth="87.0" text="Friday" textAlignment="CENTER" GridPane.columnIndex="6" />
+      <Label alignment="CENTER" prefHeight="17.0" prefWidth="88.0" text="Saturday" GridPane.columnIndex="7" />
+      <Label alignment="CENTER" prefHeight="17.0" prefWidth="88.0" text="Dates -&gt;" />
+      <TilePane prefHeight="200.0" prefWidth="200.0" />
+      <TextFlow prefHeight="200.0" prefWidth="200.0" />
+      <Label alignment="CENTER" prefHeight="90.0" prefWidth="161.0" text="9am -&gt;" GridPane.rowIndex="1" />
+      <Label alignment="CENTER" prefHeight="90.0" prefWidth="161.0" text="10am -&gt;" GridPane.rowIndex="2" />
+      <Label alignment="CENTER" prefHeight="90.0" prefWidth="161.0" text="11am -&gt;" GridPane.rowIndex="3" />
+      <Label alignment="CENTER" prefHeight="90.0" prefWidth="161.0" text="12pm -&gt;" GridPane.rowIndex="4" />
+      <Label alignment="CENTER" prefHeight="90.0" prefWidth="161.0" text="1pm -&gt;" GridPane.rowIndex="5" />
+      <Label alignment="CENTER" prefHeight="90.0" prefWidth="161.0" text="2pm -&gt;" GridPane.rowIndex="6" />
+      <Label alignment="CENTER" prefHeight="90.0" prefWidth="161.0" text="3pm -&gt;" GridPane.rowIndex="7" />
+      <Label alignment="CENTER" prefHeight="90.0" prefWidth="161.0" text="4pm -&gt;" GridPane.rowIndex="8" />
+      <Label alignment="CENTER" prefHeight="90.0" prefWidth="161.0" text="5pm -&gt;" GridPane.rowIndex="9" />
+      <ChoiceBox fx:id="sun9am" prefHeight="81.0" prefWidth="163.0" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+      <ChoiceBox fx:id="mon9am" prefHeight="78.0" prefWidth="164.0" GridPane.columnIndex="2" GridPane.rowIndex="1" />
+      <ChoiceBox fx:id="tues9am" prefHeight="78.0" prefWidth="164.0" GridPane.columnIndex="3" GridPane.rowIndex="1" />
+      <ChoiceBox fx:id="wed9am" prefHeight="77.0" prefWidth="165.0" GridPane.columnIndex="4" GridPane.rowIndex="1" />
+      <ChoiceBox fx:id="sun10am" prefHeight="87.0" prefWidth="163.0" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+      <ChoiceBox fx:id="mon10am" prefHeight="81.0" prefWidth="163.0" GridPane.columnIndex="2" GridPane.rowIndex="2" />
+      <ChoiceBox fx:id="tues10am" prefHeight="81.0" prefWidth="163.0" GridPane.columnIndex="3" GridPane.rowIndex="2" />
+      <ChoiceBox fx:id="sun11am" prefHeight="89.0" prefWidth="160.0" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+      <ChoiceBox fx:id="mon11am" prefHeight="90.0" prefWidth="160.0" GridPane.columnIndex="2" GridPane.rowIndex="3" />
+      <ChoiceBox fx:id="tues1pm" prefHeight="92.0" prefWidth="163.0" GridPane.columnIndex="3" GridPane.rowIndex="5" />
+      <ChoiceBox fx:id="mon1pm" prefHeight="89.0" prefWidth="163.0" GridPane.columnIndex="2" GridPane.rowIndex="5" />
+      <ChoiceBox fx:id="sun1pm" prefHeight="90.0" prefWidth="161.0" GridPane.columnIndex="1" GridPane.rowIndex="5" />
+      <ChoiceBox fx:id="tues12pm" prefHeight="89.0" prefWidth="163.0" GridPane.columnIndex="3" GridPane.rowIndex="4" />
+      <ChoiceBox fx:id="tues11am" prefHeight="81.0" prefWidth="163.0" GridPane.columnIndex="3" GridPane.rowIndex="3" />
+      <ChoiceBox fx:id="mon12pm" prefHeight="89.0" prefWidth="160.0" GridPane.columnIndex="2" GridPane.rowIndex="4" />
+      <ChoiceBox fx:id="sun12pm" prefHeight="96.0" prefWidth="164.0" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+      <ChoiceBox fx:id="tues5pm" prefHeight="90.0" prefWidth="161.0" GridPane.columnIndex="3" GridPane.rowIndex="9" />
+      <ChoiceBox fx:id="mon5pm" prefHeight="90.0" prefWidth="161.0" GridPane.columnIndex="2" GridPane.rowIndex="9" />
+      <ChoiceBox fx:id="sun5pm" prefHeight="90.0" prefWidth="161.0" GridPane.columnIndex="1" GridPane.rowIndex="9" />
+      <ChoiceBox fx:id="tues4pm" prefHeight="90.0" prefWidth="161.0" GridPane.columnIndex="3" GridPane.rowIndex="8" />
+      <ChoiceBox fx:id="mon4pm" prefHeight="90.0" prefWidth="161.0" GridPane.columnIndex="2" GridPane.rowIndex="8" />
+      <ChoiceBox fx:id="sun4pm" prefHeight="90.0" prefWidth="161.0" GridPane.columnIndex="1" GridPane.rowIndex="8" />
+      <ChoiceBox fx:id="tues3pm" prefHeight="90.0" prefWidth="161.0" GridPane.columnIndex="3" GridPane.rowIndex="7" />
+      <ChoiceBox fx:id="mon3pm" prefHeight="90.0" prefWidth="161.0" GridPane.columnIndex="2" GridPane.rowIndex="7" />
+      <ChoiceBox fx:id="sun3pm" prefHeight="90.0" prefWidth="161.0" GridPane.columnIndex="1" GridPane.rowIndex="7" />
+      <ChoiceBox fx:id="tues2pm" prefHeight="90.0" prefWidth="161.0" GridPane.columnIndex="3" GridPane.rowIndex="6" />
+      <ChoiceBox fx:id="mon2pm" prefHeight="90.0" prefWidth="161.0" GridPane.columnIndex="2" GridPane.rowIndex="6" />
+      <ChoiceBox fx:id="sun2pm" prefHeight="90.0" prefWidth="161.0" GridPane.columnIndex="1" GridPane.rowIndex="6" />
+      <ChoiceBox fx:id="sun11113" prefHeight="90.0" prefWidth="161.0" GridPane.columnIndex="5" GridPane.rowIndex="9" />
+      <ChoiceBox fx:id="sun11114" prefHeight="90.0" prefWidth="161.0" GridPane.columnIndex="5" GridPane.rowIndex="8" />
+      <ChoiceBox fx:id="sun11115" prefHeight="90.0" prefWidth="161.0" GridPane.columnIndex="5" GridPane.rowIndex="7" />
+      <ChoiceBox fx:id="sun11116" prefHeight="90.0" prefWidth="161.0" GridPane.columnIndex="5" GridPane.rowIndex="6" />
+      <ChoiceBox fx:id="sun11117" prefHeight="90.0" prefWidth="161.0" GridPane.columnIndex="5" GridPane.rowIndex="5" />
+      <ChoiceBox fx:id="sun11118" prefHeight="90.0" prefWidth="161.0" GridPane.columnIndex="5" GridPane.rowIndex="4" />
+      <ChoiceBox fx:id="wed5pm" prefHeight="90.0" prefWidth="161.0" GridPane.columnIndex="4" GridPane.rowIndex="9" />
+      <ChoiceBox fx:id="wed4pm" prefHeight="90.0" prefWidth="161.0" GridPane.columnIndex="4" GridPane.rowIndex="8" />
+      <ChoiceBox fx:id="wed3pm" prefHeight="90.0" prefWidth="161.0" GridPane.columnIndex="4" GridPane.rowIndex="7" />
+      <ChoiceBox fx:id="wed2pm" prefHeight="90.0" prefWidth="161.0" GridPane.columnIndex="4" GridPane.rowIndex="6" />
+      <ChoiceBox fx:id="wed1pm" prefHeight="90.0" prefWidth="161.0" GridPane.columnIndex="4" GridPane.rowIndex="5" />
+      <ChoiceBox fx:id="wed12pm" prefHeight="90.0" prefWidth="161.0" GridPane.columnIndex="4" GridPane.rowIndex="4" />
+      <ChoiceBox fx:id="sun11125" prefHeight="90.0" prefWidth="161.0" GridPane.columnIndex="6" GridPane.rowIndex="3" />
+      <ChoiceBox fx:id="sun11126" prefHeight="90.0" prefWidth="161.0" GridPane.columnIndex="5" GridPane.rowIndex="3" />
+      <ChoiceBox fx:id="wed11am" prefHeight="90.0" prefWidth="161.0" GridPane.columnIndex="4" GridPane.rowIndex="3" />
+      <ChoiceBox fx:id="sun11128" prefHeight="90.0" prefWidth="161.0" GridPane.columnIndex="6" GridPane.rowIndex="2" />
+      <ChoiceBox fx:id="sun11129" prefHeight="90.0" prefWidth="161.0" GridPane.columnIndex="5" GridPane.rowIndex="2" />
+      <ChoiceBox fx:id="wed10am" prefHeight="90.0" prefWidth="161.0" GridPane.columnIndex="4" GridPane.rowIndex="2" />
+      <ChoiceBox fx:id="sun11131" prefHeight="90.0" prefWidth="161.0" GridPane.columnIndex="6" GridPane.rowIndex="1" />
+      <ChoiceBox fx:id="sun11132" prefHeight="90.0" prefWidth="161.0" GridPane.columnIndex="5" GridPane.rowIndex="1" />
+      <ChoiceBox fx:id="sun11133" prefHeight="90.0" prefWidth="161.0" GridPane.columnIndex="7" GridPane.rowIndex="9" />
+      <ChoiceBox fx:id="sun11134" prefHeight="90.0" prefWidth="161.0" GridPane.columnIndex="7" GridPane.rowIndex="8" />
+      <ChoiceBox fx:id="sun11135" prefHeight="90.0" prefWidth="161.0" GridPane.columnIndex="7" GridPane.rowIndex="7" />
+      <ChoiceBox fx:id="sun11136" prefHeight="90.0" prefWidth="161.0" GridPane.columnIndex="7" GridPane.rowIndex="6" />
+      <ChoiceBox fx:id="sun11137" prefHeight="90.0" prefWidth="161.0" GridPane.columnIndex="7" GridPane.rowIndex="5" />
+      <ChoiceBox fx:id="sun11138" prefHeight="90.0" prefWidth="161.0" GridPane.columnIndex="7" GridPane.rowIndex="4" />
+      <ChoiceBox fx:id="sun11139" prefHeight="90.0" prefWidth="161.0" GridPane.columnIndex="7" GridPane.rowIndex="3" />
+      <ChoiceBox fx:id="sun11140" prefHeight="90.0" prefWidth="161.0" GridPane.columnIndex="7" GridPane.rowIndex="2" />
+      <ChoiceBox fx:id="sun11141" prefHeight="90.0" prefWidth="161.0" GridPane.columnIndex="7" GridPane.rowIndex="1" />
+      <ChoiceBox fx:id="sun11142" prefHeight="90.0" prefWidth="161.0" GridPane.columnIndex="6" GridPane.rowIndex="9" />
+      <ChoiceBox fx:id="sun11143" prefHeight="90.0" prefWidth="161.0" GridPane.columnIndex="6" GridPane.rowIndex="8" />
+      <ChoiceBox fx:id="sun11144" prefHeight="90.0" prefWidth="161.0" GridPane.columnIndex="6" GridPane.rowIndex="7" />
+      <ChoiceBox fx:id="sun11145" prefHeight="90.0" prefWidth="161.0" GridPane.columnIndex="6" GridPane.rowIndex="6" />
+      <ChoiceBox fx:id="sun11146" prefHeight="90.0" prefWidth="161.0" GridPane.columnIndex="6" GridPane.rowIndex="5" />
+      <ChoiceBox fx:id="sun11147" prefHeight="90.0" prefWidth="161.0" GridPane.columnIndex="6" GridPane.rowIndex="4" />
+   </children>
+</GridPane>
