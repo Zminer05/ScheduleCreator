@@ -1,3 +1,5 @@
+package com.example.groupproject;
+
 /**
  * @author  Mahmmod Dhalai
  * Section  CSC 332 003
@@ -153,13 +155,9 @@ public class Employee {
     }
 
 
-    /**
-     * Returns a message stating the employee has requested time off.
-     *
-     * @return String requestOff message
-     */
-    public String requestOff() {
-        return name + " has requested time off.";
+    @Override
+    public String toString() {
+        return name + " " + "(" + role + ")";
     }
 
 }

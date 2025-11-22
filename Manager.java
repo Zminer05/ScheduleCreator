@@ -1,3 +1,5 @@
+package com.example.groupproject;
+
 /**
  * @author  Mahmmod Dhalai
  * Section  CSC 332 003
@@ -90,5 +92,11 @@ public class Manager extends Employee {
         this.employeesSupervised = employeesSupervised;
     }
 
+    @Override
+    public String toString() {
+        return getName() + " (" + type + " " + getRole() + ")";
+    }
+
 
 }
+
