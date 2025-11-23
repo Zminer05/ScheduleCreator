@@ -1,4 +1,10 @@
 package com.example.groupproject;
+/**
+ * @author  James
+ * Section  CSC 332
+ * Date     10/23/25
+ * Purpose  This is the main controller for the schedule GUI
+ */
 
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
