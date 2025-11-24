@@ -1,4 +1,5 @@
 package com.example.groupproject;
+
 /**
  * @author  James
  * Section  CSC 332
@@ -23,11 +24,21 @@ public class ScheduleController implements Initializable {
 
     // Instantiating all the employees before the gui is created.
     static {
-        employeeList.add(new Employee("Logan", true, true, 15.75, 40, "worker"));
+        employeeList.add(new Manager("Avery", true, true, 22.00, 40, "Manager", "District", true, 7));
+        employeeList.add(new Manager("Daniel", true, true, 24.00, 40, "Manager", "Store", true, 5));
+        employeeList.add(new Manager("Samantha", true, true, 26.50, 40, "Manager", "Regional", true, 10));
+        employeeList.add(new Employee("Tom", true, true, 15.75, 40, "worker"));
         employeeList.add(new Employee("John", true, false, 10.50, 20, "worker"));
         employeeList.add(new Employee("Mason", true, true, 16.25, 30, "worker"));
         employeeList.add(new Employee("Ava", false, false, 11.75, 25, "worker"));
-        employeeList.add(new Manager("Avery", true, true, 22.00, 40, "Manager", "District", true, 7));
+        employeeList.add(new Employee("Emily", true, false, 13.25, 28, "worker"));
+        employeeList.add(new Employee("Noah", false, true, 12.50, 24, "worker"));
+        employeeList.add(new Employee("Liam", true, true, 14.75, 32, "worker"));
+        employeeList.add(new Employee("Olivia", false, false, 11.25, 20, "worker"));
+        employeeList.add(new Employee("Ethan", true, false, 15.00, 36, "worker"));
+        employeeList.add(new Employee("Chloe", false, true, 12.75, 22, "worker"));
+        employeeList.add(new Employee("Isabella", true, true, 16.00, 38, "worker"));
+        employeeList.add(new Employee("Lucas", false, false, 11.50, 18, "worker"));
     }
 
 
